@@ -19,7 +19,7 @@ public class PemilihanPercobaan329 {
         case '+':
             hasil = angka1 + angka2;
             System.out.println(angka1 + " + " + angka2 + "=" + hasil);
-            break;
+            
         case '-':
             hasil = angka1 - angka2;
             System.out.println(angka1 + " - " + angka2 + "=" + hasil);
@@ -32,6 +32,8 @@ public class PemilihanPercobaan329 {
             hasil = angka1 / angka2;
             System.out.println(angka1 + " / " + angka2 + "=" + hasil);
             break;
+            default:
+            System.out.println("tidak sesuai");
     }
     }
 }
